@@ -1,4 +1,4 @@
-# Problem: Write a program to find the type of the variable name
+# Problem: Write a program to find the type of the variable
 
 variable_name = "Hello World"
 variable_type = type(variable_name)

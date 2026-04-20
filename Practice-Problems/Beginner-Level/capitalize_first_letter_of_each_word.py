@@ -15,10 +15,9 @@ def title_formatter(sentence):
     # convert each word's first character into capitalize form
     # Note: In Python, parentheses () around a loop like this create a Generator. A generator is like a "lazy" list. It doesn't actually create the list of words in memory immediately; it just prepares the logic to create them when needed.
     output_sentence = (word[0].upper() + word[1:] for word in words)
-
     return " ".join(output_sentence)
 
-    # line 14 & line 15 can be written in 1 one like below
+    # line 17 & line 18 can be written in 1 one like below
     # return " ".join(word[0].upper() + word[1:] for word in words)
 
 input_sentence = "python for web developers"
